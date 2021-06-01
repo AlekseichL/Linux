@@ -1,0 +1,26 @@
+ls -la
+touch file1.txt
+ls -la
+nano file1.txt
+touch file2.txt
+ls -la
+sudo apt install vim
+vim file2.txt
+cp file1.txt file1_new.txt
+cp file2.txt file2_new.txt
+ls -la
+mkdir fille1
+mkdir fille2
+mkdir fille1/f
+mkdir fille2/f
+ls -la
+mv file1.txt fille1/f
+mv file1_new.txt fille1/f
+mv file2.txt fille2/f
+mv file2_new.txt fille2/f
+cd fille1/f
+ls -la
+rm -r fille1
+rm -r fille2
+ls -la
+
