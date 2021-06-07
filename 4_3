@@ -1,0 +1,8 @@
+sudo nano /etc/ssh/sshd_config
+#нахожу PasswordAuthentication, раскомментирую, меняю значение yes на no, сохраняю, закрываю
+ps -ef | grep sshd
+sudo systemctl restart sshd
+ps -ef | grep sshd
+cat > task.txt
+cat task.txt
+

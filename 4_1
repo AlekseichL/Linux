@@ -1,0 +1,7 @@
+echo> file.txt
+ls -la
+cat file.txt
+cat /etc/* >file.txt 2>file_err.txt
+ll file*
+cat file_err.txt
+
