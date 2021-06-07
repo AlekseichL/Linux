@@ -1,0 +1,4 @@
+mc
+ps -ef | grep mc
+kill -9 25853
+

@@ -1,0 +1,3 @@
+ll -ld /etc/* | cut -f1 -d " " | sort | uniq
+ll -ld /etc/* | cut -f1 -d " " | sort -u
+
