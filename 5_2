@@ -1,0 +1,10 @@
+mv -f file2 new_file2
+mv -f file3 new_file3
+mv -f file4 new_file4
+ls -la
+ln -s new_file2 new_file5
+ls -la
+mkdir homework5
+mv new_file5 homework5/
+ls -la
+

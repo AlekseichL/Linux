@@ -1,0 +1,10 @@
+echo "arbitrary content" > file1
+cp file1 file2
+ls -la
+cat file2
+ln -s file1 file3
+ln file1 file4
+ls -la
+rm file1
+ls -la
+
