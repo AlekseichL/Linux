@@ -1,0 +1,21 @@
+touch file1.txt
+touch file2.txt
+ls -la
+chmod ug=rw file1.txt
+chmod o=r file1.txt
+ls -la
+chmod ug=rw file1.txt
+chmod o=r file1.txt
+ls -la
+chmod ugo-rw file1.txt
+ls -la
+chmod 664 file1.txt
+chmod ugo-rw file2.txt
+ls -la
+chmod u+rw file2.txt
+ls -la
+chmod 000 file2.txt
+ls -la
+chmod 600 file2.txt
+ls -la
+
