@@ -1,0 +1,15 @@
+nano homework6_1
+#записываю в файл(
+	str1
+	str2
+
+	str3+1
+
+	str4+2
+
+
+	str5+4
+	)
+	
+sed -i '/^$/d' homework6_1
+

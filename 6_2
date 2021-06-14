@@ -1,0 +1,24 @@
+mkdir homework6
+cd homework6
+nano homework6_2.sh
+                         
+#!/bin/bash
+
+for i in {2010..2017}
+do
+        mkdir $i 
+        cd $i
+        for j in {1..12}
+        do
+                mkdir $j
+                cd $j
+                echo "файл 001" > 001.txt
+                echo "файл 002" > 002.txt
+                cd ../
+        done
+        cd ../
+done
+
+
+bash homework6_2.sh
+
