@@ -1,0 +1,11 @@
+grep -ir ssh /var/log/syslog
+Результат:
+ Jun 14 06:01:26 UserPC systemd[1082]: Listening on GnuPG cryptographic agent (ssh-agent    emulation).
+ Jun 14 06:02:03 UserPC systemd[1613]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+ Jun 14 06:02:04 UserPC systemd[1613]: Starting Start gnome-keyring as SSH agent...
+ Jun 14 06:02:04 UserPC systemd[1613]: Finished Start gnome-keyring as SSH agent.
+ Jun 14 06:02:04 UserPC systemd[1613]: Started OpenSSH Agent.
+ Jun 14 06:02:04 UserPC systemd[1613]: ssh-agent.service: Succeeded.
+ Jun 14 06:02:04 UserPC gnome-keyring-ssh.desktop[1838]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+
+
