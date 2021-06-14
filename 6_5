@@ -2,5 +2,5 @@ sudo apt install at -y
 Sudo systemctl status atd
 sudo systemctl enable --now atd
 echo "/usr/sbin/reboot" > reboot.sh
-at -f /home/user/reboot.sh 7:45pm 06/14/2021
+at -f reboot.sh 7:45pm 06/14/2021
 
