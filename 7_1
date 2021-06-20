@@ -1,0 +1,5 @@
+sudo apt-add-repository ppa:nginx/stable
+sudo apt install nginx
+nginx -v
+sudo dpkg --purge nginx
+
